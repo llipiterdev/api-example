@@ -1,8 +1,8 @@
 {
   "name": "api-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API de ejemplo para implementar Sanitización de información y creación de pruebas de integración",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.18.1"
