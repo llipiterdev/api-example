@@ -8,6 +8,7 @@ route.get('/', function (req, res) {
 
 route.use("/fruits", require(path.join(__dirname, "/fruits")));
 route.use("/animals", require(path.join(__dirname, "/animals")));
+route.use("/cars", require(path.join(__dirname, "/cars")));
 route.use("/keyboards", require(path.join(__dirname, "/keyboards")));
 
 
