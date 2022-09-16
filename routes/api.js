@@ -7,6 +7,6 @@ route.get('/', function (req, res) {
 })
 
 route.use("/fruits", require(path.join(__dirname, "/fruits")));
-
+route.use("/instruments", require(path.join(__dirname, "/instruments")));
 
 module.exports = route;
